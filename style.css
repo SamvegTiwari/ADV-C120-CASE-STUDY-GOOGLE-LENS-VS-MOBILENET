@@ -1,0 +1,24 @@
+.dude {
+    box-shadow: 5px 5px blue, 10px 10px cadetblue, 15px 15px purple;
+    font-size: 20px;
+    
+  
+  }
+
+  .dude:hover {
+    background-color: rgb(255, 0, 0);
+  }
+
+  .button {
+    width: 205px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+
+  .button:hover {
+    width: 300px;
+  }
+  .button:hover {
+      transform: rotate(20deg);
+  }
